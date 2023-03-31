@@ -1,6 +1,6 @@
 Name:		texlive-ketcindy
 Version:	58661
-Release:	1
+Release:	2
 Summary:	macros for graphic generation and Cinderella plugin
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ketcindy

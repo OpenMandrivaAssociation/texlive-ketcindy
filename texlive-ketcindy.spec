@@ -3,7 +3,7 @@ Version:	58661
 Release:	2
 Summary:	macros for graphic generation and Cinderella plugin
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ketcindy
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/ketcindy
 License:	gpl3+
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ketcindy.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ketcindy.doc.r%{version}.tar.xz

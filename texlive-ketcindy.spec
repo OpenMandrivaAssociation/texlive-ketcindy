@@ -1,5 +1,6 @@
 %global tl_name ketcindy
 %global tl_revision 58661
+%global tl_bin_links ketcindy:%{_texmfdistdir}/scripts/ketcindy/ketcindy.pl
 
 Name:		texlive-%{tl_name}
 Epoch:		1
@@ -15,6 +16,8 @@ BuildArch:	noarch
 BuildSystem:	texlive
 Requires:	texlive(ketcindy.bin)
 Provides:	texlive(%{tl_name}) = %{tl_revision}
+Provides:	texlive(%{tl_name}.bin) = %{tl_revision}
+Provides:	texlive-%{tl_name}.bin = %{EVRD}
 
 %description
 KETpic is a macro package designed for computer algebra systems (CAS) to
